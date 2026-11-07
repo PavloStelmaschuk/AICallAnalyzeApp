@@ -1,0 +1,91 @@
+# === Environment & Secrets ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Google Cloud / Drive API credentials
+credentials.json
+*credentials*.json
+service_account*.json
+client_secret*.json
+token.json
+
+# === Python & Virtual Environments ===
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / Distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Testing & Quality Tools ===
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# === Databases ===
+*.db
+*.sqlite
+*.sqlite3
+call_qa.db
+
+# === Temporary & Media Files ===
+temp_download_dir/
+temp_audio/
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.aac
+
+# === Logs ===
+*.log
+logs/
+
+# === IDE & OS specific files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# JetBrains / VSCode
+.idea/
+.vscode/
+*.swp
+*.swo
+
